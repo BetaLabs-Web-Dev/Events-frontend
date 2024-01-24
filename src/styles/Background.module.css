@@ -1,5 +1,5 @@
 .Background {
-    background-image: url("../../assets/images/bg-img.svg");
+    background-image: url("../../public/assets/images/bg-img.svg");
     background-size: cover;
     width: 100%;
     aspect-ratio: calc(1440 / 3678);
