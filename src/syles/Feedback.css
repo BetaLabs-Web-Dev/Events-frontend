@@ -1,0 +1,55 @@
+*{
+    color: rgba(255, 255, 255, 1);
+    background-color: black;
+    font-family: Josefin Sans;
+}
+
+
+
+.feedback--title{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+.feedback--image{
+    margin-left: 3%;
+    width: 495px;
+    height: 333px;
+    float: left;
+}
+
+.feedbackForm{
+    padding: 10px;
+    padding-top: 51px;
+    display: grid;
+    grid-template: auto;
+    grid-gap: 10px;
+    align-items: center;
+}
+.feedbackForm--label{
+    margin-bottom: 10px;
+}
+
+.feedbackForm--input {
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+    text-indent: 5px;
+    height: 44px;
+    width: 461px;
+}
+.feedbackForm--button {
+    width: 141px;
+    height: 43px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 1);
+    border: none;
+    cursor: pointer;
+    margin-left: 15%;
+}
