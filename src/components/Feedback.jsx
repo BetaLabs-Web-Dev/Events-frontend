@@ -1,6 +1,6 @@
 import React from 'react'
 import '../syles/Feedback.css'
-import Image from "../images/feedback-image.png"
+import Image from "../assets/feedback-image.png"
 
 const Feedback = () => {
   return (
