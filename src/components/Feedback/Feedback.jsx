@@ -1,12 +1,11 @@
-import React from 'react'
-import '../syles/Feedback.css'
-import Image from "../assets/feedback-image.png"
+import React from 'react';
+import './Feedback.css';
 
 const Feedback = () => {
   return (
       <div className="feedback">
         <h2 className="feedback--title">Feedback</h2>
-        <img src={Image} className="feedback--image" alt="table"/>
+        <img src='/assets/feedback-image.png' className="feedback--image" alt="table"/>
 
         <form className="feedbackForm">
             <div>
@@ -15,7 +14,7 @@ const Feedback = () => {
             </div>
             <div>
                 <label className="feedbackForm--label">EMAIL</label><br/>
-                <input type="text" className="feedbackForm--input"/>
+                <input type="email" className="feedbackForm--input"/>
             </div>
             <div>
                 <label className="feedbackForm--label">MESSAGE</label><br/>

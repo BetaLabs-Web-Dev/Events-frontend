@@ -1,54 +1,52 @@
+
 .footer--b{
     background-color: rgba(27, 30, 41, 1);
-    /* height: 500px; */
     padding-top: 40px;
     margin-top: 120px;
     margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .circle{
     background:linear-gradient(90deg, #6E3CD7 0%, #7800B0 90%);
-    width: 75px;
-    height: 75px;
+    width: 4.5vw;
+    height: 4.5vw;
     border-radius: 100%;
-    margin-left: 50px;
+    margin-left: 3.75vw;
     position: relative;
 }
 
 .footer {
     background-color: rgba(27, 30, 41, 1);
     color: #fff;
-    padding: 20px;
-    padding-left: 50%;
-    text-align: center;
-    bottom: 0;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, auto);
-    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-right: 10%;
 }
 
 .footer-item {
     padding: 10px;
     background-color: rgba(27, 30, 41, 1);
+    display: flex;
+    flex-direction: column;
 }
 
 .footer-heading {
-    font-weight: bold;
     margin-bottom: 5px;
     background-color: rgba(27, 30, 41, 1);
     color: #FFF;
     font-family: Inter;
-    font-size: 16px;
     font-weight: 600;
 }
 
 .footer-links {
-    list-style: none;
+    /* list-style: none;
     padding: 0;
-    margin: 0;
-    background-color: rgba(27, 30, 41, 1);
+    margin: 0; */
+    /* background-color: rgba(27, 30, 41, 1); */
 }
 .footer-l{
     background-color: rgba(27, 30, 41, 1);
@@ -57,7 +55,6 @@
     background-color: rgba(27, 30, 41, 1);
     color: #4B5274;
     font-family: Inter;
-    font-size: 16px;
     font-weight: 600;
 }
 
@@ -66,21 +63,9 @@
 .copy{
     color: #FFF;
     font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
-    text-transform: capitalize;
-    margin-left: 5%;
     padding-bottom: 2%;
+    padding-left: 4%;
     background-color: rgba(27, 30, 41, 1);
-}
-
-.Sv{
-    background-color:rgba(27, 30, 41, 1);
-    padding-top: 20px;
-    padding-left: 20px;
-    float: left;
-    width: 110px;
 }
 

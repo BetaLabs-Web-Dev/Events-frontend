@@ -1,9 +1,10 @@
-import React from 'react'
-import '../syles/Footer.css' 
+import React from 'react';
+import './Footers.css';
 
 const Footers = () => {
   return (
-    <footer className="footer--b">
+    <footer>
+    <div className="footer--b">
       <div className="circle"></div>
       <div class="footer">
         <div class="footer-item">
@@ -31,8 +32,9 @@ const Footers = () => {
             </ul>
         </div>
       </div>
-      <div className='copy'>copyright2023 Beta Labs</div>
-    </footer>
+    </div>
+      <div className='copy'>Copyright2023 Beta Labs</div>
+      </footer>
   )
 }
 
