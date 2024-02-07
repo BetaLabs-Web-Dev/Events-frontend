@@ -1,0 +1,38 @@
+.big-div {
+  display: flex;
+}
+
+.card-container {
+  position: relative;
+  width: 25vw;
+  height: 55vh;
+  overflow: hidden;
+  border-radius: 40px;
+  z-index: 2;
+  position: relative;
+}
+
+.card {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease;
+}
+
+.card:not(:first-child) {
+  transform: translateX(100%);
+}
+
+.card-img {
+  height: 55vh;
+  width: 25vw;
+  position: absolute;
+  margin-left: 3.2vw;
+  margin-top: 2px;
+}
+
+.arrow {
+  cursor: pointer;
+  margin-left: 3vw;
+  z-index: 2;
+}

@@ -1,0 +1,44 @@
+.navbar {
+  background-color: #000;
+  padding-block: 2vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  z-index: 1;
+  color: white;
+  font-family: "Josefin Sans";
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.logo {
+  font-size: 1.5rem;
+  padding-left: 3.125vw;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  gap: 5vw;
+}
+
+.nav-link {
+  font-size: 1rem;
+}
+
+.login-button {
+  padding-right: 3.125vw;
+}
+
+.login-btn {
+  height: 100%;
+  padding: 0.6vh 0.8vw;
+  font-size: 1rem;
+  background: linear-gradient(90deg, #fd00b6 0%, #5100fd 100%);
+  border-radius: 0.687rem;
+}
+.login-content {
+  display: flex;
+  gap: 3px;
+}

@@ -1,0 +1,197 @@
+.hero-container {
+  background-color: black;
+  box-sizing: border-box;
+  box-shadow: inset -1.5rem 1.5rem 4.32rem -1rem rgba(247, 247, 247, 0.25);
+  padding-right: 4.5rem;
+}
+
+.first-section {
+  display: flex;
+  font-family: "Josefin Sans";
+  justify-content: space-between;
+  padding: 0 4vw;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8.375rem;
+  gap: 1.563rem;
+}
+
+.title {
+  padding-top: 19vh;
+  font-size: 4rem;
+  font-weight: 700;
+  word-wrap: break-word;
+  line-height: 4.375rem;
+  width: 49vw;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #0074c8, #b855dbaa, #6400c9);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.search-section {
+  position: relative;
+  width: 32.8125rem;
+  height: 4rem;
+  display: flex;
+}
+
+.gradient-mask {
+  position: absolute;
+  inset: 0;
+  border-radius: 0.437rem;
+  padding: 1px;
+  background: linear-gradient(
+    to right,
+    #1400ff,
+    #af00daf2,
+    #6100dcc7,
+    #b600e4,
+    #eb00b7
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  z-index: 1;
+}
+
+.search-input {
+  width: 28rem;
+  height: 4rem;
+  background: rgba(214, 93, 177, 0.1);
+  border: 1px solid transparent;
+  border-radius: 7px;
+  box-sizing: border-box;
+  color: white;
+  font-size: 2.25rem;
+  font-weight: 400;
+  padding-left: 1.125rem;
+  z-index: 2;
+}
+
+.divider {
+  width: 0.0625rem;
+  background-color: #6400c9;
+}
+
+.action-key {
+  width: 5.0625rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(214, 93, 177, 0.1);
+  border: 0.625rem solid transparent;
+  border-radius: 0.437rem;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.description {
+  width: 52vw;
+  color: white;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.right-container {
+  margin-top: 4.5125rem;
+  color: white;
+  font-family: "Josefin Sans";
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.upcoming-title {
+  margin-bottom: 6px;
+  margin-left: 4.9375rem;
+}
+
+.second-section {
+  display: flex;
+  justify-content: center;
+  font-family: "Josefin Sans";
+}
+
+.outer-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.beta-labs image {
+  height: 23.9375rem;
+  width: 38.1875rem;
+}
+
+.inner-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5vw;
+}
+
+.random-title {
+  background: linear-gradient(45deg, #6400c9, #dd61c2c9, #9500f0, #9500f000);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 1.25rem;
+  font-family: "Inter";
+  font-weight: 800;
+}
+
+.random-white-text {
+  color: white;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.random-gray-text {
+  color: #bdbdbd;
+  font-size: 0.9375rem;
+  font-family: "Inter";
+  font-weight: 400;
+}
+
+.random-button {
+  width: 15vw;
+  border-radius: 0.437rem;
+  font-size: 1.5rem;
+  height: 2.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.random-gradient {
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  border: 0.0625rem solid transparent;
+  box-sizing: border-box;
+  background: linear-gradient(
+    to left,
+    #1400ff,
+    #af00daf2,
+    #6100dcc7,
+    #b600e4,
+    #eb00b7
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+.random-button-text {
+  position: absolute;
+  color: white;
+  font-family: "Inter";
+  font-weight: 400;
+}
