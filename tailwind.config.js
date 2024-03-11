@@ -4,7 +4,15 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'josefin': ['Josefin Sans', 'sans-serif'],
+        'inter':['inter','sans-serif']
+      },
+      backgroundImage: theme => ({
+        'your-image': "url('/public/assets/betalabs.png')",
+      })
+    },
   },
   plugins: [],
 }
