@@ -1,5 +1,5 @@
 import React from 'react'
-import FestCard from '../../FestCard/FestCard'
+import FestCard from '../FestCard/FestCard'
 const ScheduleCard = () => {
 
 return (

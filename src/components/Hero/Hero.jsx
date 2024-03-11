@@ -3,7 +3,7 @@ import "./Hero.css";
 import Carousel from '../Carousel/Carousel'
 const Hero = () => {
   return (
-      <div className="flex gap-20 px-5 font-josefin">
+      <div className="flex flex-wrap items-end justify-around px-5 font-josefin">
         <div className="flex flex-col w-3/5 gap-8">
             <div className="text-5xl font-bold gradient-text">DISCOVER, ENGAGE, and ELEVATE</div>
             <div className="flex items-center bg-gray-900 border-2 border-purple-500 rounded-xl w-fit">
@@ -22,7 +22,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="">
+        <div className="flex flex-col items-center gap-6">
           <div className="text-3xl font-bold font-josefin">UPCOMING</div>
           <div className="">
             <Carousel />
