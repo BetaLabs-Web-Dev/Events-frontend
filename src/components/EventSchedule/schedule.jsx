@@ -15,7 +15,7 @@ const images = [
   <ScheduleCard />
 ];
 
-function EventsSlider() {
+function Schedule() {
   const NextArrow = ({ onClick }) => {
     return (
       <div className="arrowu top-[53%] right-0 md:right-[10%] lg:right-[20%]" onClick={onClick}>
@@ -62,4 +62,4 @@ function EventsSlider() {
   );
 }
 
-export default EventsSlider;
+export default Schedule;
