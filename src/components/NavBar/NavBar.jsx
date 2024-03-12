@@ -20,12 +20,12 @@ const NavBar = () => {
           <NavLink to="/team" className="nav-link">
             TEAM
           </NavLink>
-          <NavLink to="/admin" className="nav-link">
+          <NavLink to="/contact" className="nav-link">
             CONTACT US
           </NavLink>
         </div>
       </div>
-      <Link href="/login" className="px-7 py-2 rounded-md font-semibold login-btn">
+      <Link to="/login" className="hidden md:block px-7 py-2 rounded-md font-semibold login-btn">
         <div className="bg-transparent">
           <span className="bg-transparent">LOGIN</span>
         </div>

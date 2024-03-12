@@ -3,7 +3,7 @@ import Hero from '../../components/Hero/Hero'
 import Feedback from '../../components/Feedback/Feedback'
 import Dregister from '../../components/Dregister/Dregister'
 import PastEvent from '../../components/PastEvents/PastEvent'
-import Schedule from '../../components/EventSchedule/schedule'
+import Schedule from '../../components/EventSchedule/Schedule'
 
 const Home = () => {
     return (

@@ -18,7 +18,7 @@ const images = [
 function EventsSlider() {
   const NextArrow = ({ onClick }) => {
     return (
-      <div className="arrow next" onClick={onClick}>
+      <div className="arrow top-[40%] right-[3vw] md:right-[30%]" onClick={onClick}>
         <ArrowForwardIosIcon />
       </div>
     );
@@ -26,7 +26,7 @@ function EventsSlider() {
 
   const PrevArrow = ({ onClick }) => {
     return (
-      <div className="arrow prev2" onClick={onClick}>
+      <div className="arrow top-[40%] left-[3vw] md:left-[30%]" onClick={onClick}>
         <ArrowBackIosIcon />
       </div>
     );
