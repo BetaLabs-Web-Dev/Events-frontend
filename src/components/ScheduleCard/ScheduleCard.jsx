@@ -1,21 +1,19 @@
-import React from 'react'
-import FestCard from '../FestCard/FestCard'
+import React from 'react';
+import FestCard from './FestCard';
 const ScheduleCard = () => {
-
-return (
-    <div className='relative flex flex-col justify-center gap-2 pt-5 my-5'>
-        <span className='ml-6 text-2xl font-bold tracking-wider font-josefin'>January</span>
-        <div className="">  
-            <FestCard />
-            <FestCard />
-            <FestCard />
+    return (
+        <div className='relative flex flex-col justify-center gap-4 my-5 items-center'>
+            <span className='text-[32px] font-bold tracking-wider'>January</span>
+            <div className="">  
+                <FestCard />
+                <FestCard />
+                <FestCard />
+            </div>
         </div>
-    </div>
-)
+    )
 }
 
-export default ScheduleCard
-
+export default ScheduleCard;
 
 // const data = [
 //     {

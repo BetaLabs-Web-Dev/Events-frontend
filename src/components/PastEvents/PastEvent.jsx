@@ -3,10 +3,10 @@ import Slider from "react-slick";
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import "./PastEvent.css";
-import EventCard from "../EventCard/Eventcard"
+import EventCard from "./Eventcard"
 
 const images = [
-  <EventCard  />,
+  <EventCard />,
   <EventCard />,
   <EventCard />,
   <EventCard />,
@@ -26,7 +26,7 @@ function EventsSlider() {
 
   const PrevArrow = ({ onClick }) => {
     return (
-      <div className="arrow prev" onClick={onClick}>
+      <div className="arrow prev2" onClick={onClick}>
         <ArrowBackIosIcon />
       </div>
     );
@@ -38,20 +38,43 @@ function EventsSlider() {
     infinite: true,
     lazyLoad: true,
     speed: 300,
-    autoplay:true,
-    autoplaySpeed:2500,
+    autoplay: true,
+    autoplaySpeed: 2500,
     slidesToShow: 3,
-    focusOnSelect:true,
+    focusOnSelect: true,
     centerMode: true,
-    centerPadding: "7.5rem",
+    centerPadding: "10.4vw",
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
     beforeChange: (current, next) => setImageIndex(next),
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          centerPadding: "2vw",
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          centerPadding: "27vw",
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          centerPadding: "17vw",
+        },
+      }
+    ]
   };
 
   return (
-    <div className="pb-10 App">
-      <h2 className="my-6 text-3xl font-semibold text-center font-inter">Past Events</h2>
+    <div className="p-10 past-events flex flex-col">
+      <h2 className="mb-8 text-[36px] font-bold text-center">Past Events</h2>
       <div className="carousel-container">
         <Slider {...settings}>
           {images.map((imgObj, idx) => (
