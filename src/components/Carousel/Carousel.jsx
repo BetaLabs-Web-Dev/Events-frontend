@@ -9,7 +9,7 @@ import 'swiper/css/navigation';
 import './Carousel.css';
 
 // import required modules
-import { EffectCube,Autoplay,Navigation, Pagination } from 'swiper/modules';
+import { EffectCube, Autoplay, Navigation, Pagination } from 'swiper/modules';
 
 export default function App() {
   return (
@@ -24,22 +24,22 @@ export default function App() {
           shadowScale: 0.94,
         }}
         autoplay={{
-          delay:3000,
-          disableOnInteraction:false
+          delay: 3000,
+          disableOnInteraction: false
         }}
         loop={true}
         pagination={true}
-        modules={[EffectCube, Pagination,Autoplay,Navigation]}
+        modules={[EffectCube, Pagination, Autoplay, Navigation]}
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-1.jpg" alt=''/>
+          <img src="https://swiperjs.com/demos/images/nature-1.jpg" alt='' />
         </SwiperSlide>
         <SwiperSlide>
           <img src="https://swiperjs.com/demos/images/nature-2.jpg" alt='' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-3.jpg"alt='' />
+          <img src="https://swiperjs.com/demos/images/nature-3.jpg" alt='' />
         </SwiperSlide>
         <SwiperSlide>
           <img src="https://swiperjs.com/demos/images/nature-4.jpg" alt='' />

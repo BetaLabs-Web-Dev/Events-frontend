@@ -1,30 +1,35 @@
 import React from "react";
+import { Link, NavLink } from "react-router-dom";
 import "./NavBar.css";
 
 const NavBar = () => {
   return (
-    <nav className="p-6 navbar">
-      <div className="logo">IIIT KOTTAYAM</div>
-      <div className="nav-links"> 
-        <a href="/" className="nav-link">
-          HOME
-        </a>
-        <a href="/about" className="nav-link">
-          ABOUT
-        </a>
-        <a href="/events" className="nav-link">
-          EVENTS
-        </a>
-        <a href="/admin" className="nav-link">
-          ADMIN
-        </a>
+    <nav className="fixed w-[100vw] z-50 py-5 px-6 flex flex-row justify-between items-center bg-[#0e002c]">
+      <div className="logo">EVENTS</div>
+      <div className="hidden md:flex flex-row items-center">
+        <div className="nav-links">
+          <NavLink to="/" className="nav-link">
+            HOME
+          </NavLink>
+          <NavLink to="/about" className="nav-link">
+            ABOUT
+          </NavLink>
+          <NavLink to="/events" className="nav-link">
+            EVENTS
+          </NavLink>
+          <NavLink to="/team" className="nav-link">
+            TEAM
+          </NavLink>
+          <NavLink to="/admin" className="nav-link">
+            CONTACT US
+          </NavLink>
+        </div>
       </div>
-        <a href="/login" className="px-5 py-2 login-btn">
-          <div className="bg-transparent login-content">
-            <span className="bg-transparent ">LOGIN</span>
-            <img src='/assets/arrow_forward_ios.png' alt="Arrow icon" className="bg-transparent " />
-          </div>
-        </a>
+      <Link href="/login" className="px-7 py-2 rounded-md font-semibold login-btn">
+        <div className="bg-transparent">
+          <span className="bg-transparent">LOGIN</span>
+        </div>
+      </Link>
     </nav>
   );
 };

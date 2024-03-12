@@ -1,0 +1,14 @@
+.feedback-form div input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+}
+
+.feedback-form div textarea{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    overflow-y: hidden;
+}
