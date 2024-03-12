@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import "./schedule.css";
-import ScheduleCard from "../ScheduleCard/ScheduleCard";
+import ScheduleCard from "./ScheduleCard";
 
 const images = [
   <ScheduleCard />,
@@ -48,7 +48,7 @@ function EventsSlider() {
 
   return (
     <div className="relative flex flex-col justify-center gap-5 my-6">
-      <div className="relative">
+      <div className="">
         <Slider {...settings}>
           {images.map((imgObj, idx) => (
             <div className={idx === imageIndex ? "slide activeSlide" : "slide"} key={idx}>
@@ -57,7 +57,7 @@ function EventsSlider() {
           ))}
         </Slider>
       </div>
-      <button className="self-center px-4 py-2 text-[22px] font-medium rounded-md cursor-pointer gredientbut">See more</button>
+      <button className="self-center px-4 py-2 text-[18px] md:text-[22px] font-medium rounded-md cursor-pointer gredientbut">See more</button>
     </div>
   );
 }

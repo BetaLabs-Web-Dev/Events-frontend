@@ -40,6 +40,7 @@
   word-wrap: break-word;
   z-index: 1;
 }
-.random-button:hover{
+
+.random-button:hover {
   box-shadow: #B600E4 0px 0px 10px;
 }

@@ -3,7 +3,7 @@ import FestCard from './FestCard';
 const ScheduleCard = () => {
     return (
         <div className='relative flex flex-col justify-center gap-4 my-5 items-center'>
-            <span className='text-[32px] font-bold tracking-wider'>January</span>
+            <span className='text-[28px] md:text-[32px] font-bold tracking-wider'>January</span>
             <div className="">  
                 <FestCard />
                 <FestCard />
