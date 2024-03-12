@@ -1,9 +1,12 @@
 import './App.css';
-import Home from './pages/Home';
+import NavBar from './components/NavBar/NavBar.jsx'
+// import { Route, Routes } from 'react-router-dom';
+import Home from './pages/Home/Home.jsx';
 
 function App() {
   return (
-    <div>
+    <div className='text-white bg-black'>
+      <NavBar />
       <Home />
     </div>
   );

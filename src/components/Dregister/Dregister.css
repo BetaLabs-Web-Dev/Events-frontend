@@ -1,0 +1,43 @@
+.random-title {
+    background: linear-gradient(45deg, #6400C9, #DD61C2C9, #9500F0, #9500F000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .random-button {
+    width: 193px;
+    height: 47px;
+    border-radius: 7px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .random-gradient {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    background: linear-gradient(to left, #1400FF, #AF00DAF2, #6100DCC7, #B600E4, #EB00B7);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+  }
+  
+  .random-button-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-family: 'Inter';
+    font-weight: 400;
+    word-wrap: break-word;
+    z-index: 1;
+  }
+  
