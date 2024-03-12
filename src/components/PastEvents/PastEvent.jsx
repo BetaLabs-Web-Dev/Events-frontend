@@ -15,7 +15,7 @@ const images = [
   <EventCard />
 ];
 
-function EventsSlider() {
+function PastEvent() {
   const NextArrow = ({ onClick }) => {
     return (
       <div className="arrow top-[40%] right-[3vw] md:right-[30%]" onClick={onClick}>
@@ -88,4 +88,4 @@ function EventsSlider() {
   );
 }
 
-export default EventsSlider;
+export default PastEvent;
